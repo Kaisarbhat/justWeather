@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './WeatherApp.css';
 
-function WeatherApp() {
+function App() {
   const [weather, setWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
   const [location, setLocation] = useState('');
@@ -145,4 +145,4 @@ function WeatherApp() {
   );
 }
 
-export default WeatherApp;
+export default App;
